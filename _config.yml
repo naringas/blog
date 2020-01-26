@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A Blog
+title: My Blog
 # author: B.S.
 # email: naringas.info
 description: >-
@@ -55,7 +55,8 @@ plugins:
 
 timezone: Etc/UTC
 show_excerpts: true
-
+minima:
+  date_format: "%Y-%m-%d"
 defaults:
   -
     scope:
