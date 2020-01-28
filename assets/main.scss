@@ -1,0 +1,24 @@
+---
+---
+
+@import "minima";
+
+dl {
+	border-collapse: collapse;
+	border-left: 2px solid #e8e8e8;
+	border-right: 2px solid #e8e8e8;
+	dt {
+		border-bottom: 1px solid #e8e8e8;
+		font-weight: bolder;
+		padding-left: 0.6666em;
+	}
+	dd {
+		padding: 0.5em 0.6666em;
+	}
+}
+/*
+blockquote {
+	color: #111;
+	letter-spacing: 0;
+}
+*/
