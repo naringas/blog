@@ -1,0 +1,7 @@
+{%- if include.tags.size > 0 -%}
+  <div style="margin: -15px 0 10px 0;">
+  {%- for tag in include.tags -%}
+    <span class="post-tag">{{ tag }}</span>
+  {%- endfor -%}
+  </div>
+{%- endif -%}
