@@ -15,7 +15,7 @@ This is a storied explanation of the kinds of numbers inspired by a weakly histo
 
 Once humans begun owning things and started trading them with other humans, it became necessary to keep track of what they were trading.
 
-Whether you were trading vases of grain, farm animals, or anything else, is not important. What is important is that you were trading units of something. (let's focus on widget markets for now)
+Whether you were trading vases of grain, farm animals, or anything else, is not important. What is important is that you were trading units of something.
 
 {% comment %}
 The word-root ["merx"](https://www.etymonline.com/word/merchandise)
