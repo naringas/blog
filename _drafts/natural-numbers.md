@@ -43,7 +43,7 @@ This basic scenario is equivalent to asking _"what do we get if we start with 7 
 This is a rather simple example, but we can also ask more complex questions. For example the opposite to the previous one: _"what do we need to add to 7 in order to get 9?"_ i.e. `7 + 𝐱 = 9`. So far so good, the answer is 2.  
 But what if we swap the seven and the nine? _"what do we need to add to 9 in order to get 7?"_ i.e. `9 + 𝐱 = 7`.
 
-If we were being rigorous this would be a problem; and since this is mathematics -- we are being rigiorous. This is a problem; lucily it is a solved problem.
+If we were being rigorous this would be a problem; and since this is mathematics -- we are being rigiorous. This is a problem; luckily it is a solved problem.
 
 The issue is that there isn't a natural counting number such that we can add it to 9 and get out 7. We constructed the naturals by sucession. It is not possible to advance your way from 9 back to 7.
 
