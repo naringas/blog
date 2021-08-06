@@ -1,9 +1,16 @@
-# Spaces. Operators. Variables. Parenthesis.
+---
+title: Spaces. Operators and variables. Parenthesis.
+tags: mathematics
+excerpt_separator: <!--more-->
+---
+
+# Spaces. Operators and variables. Parenthesis.
 
 As I try to understand the decimal point I wonder about the role of spaces, variables, parenthesis and functions.
 
 I think about different ways to encode the same numbers. I distinguish in my head a number from its repesentation.
 
+<!--more-->
 
 # 0. Space
 
@@ -27,15 +34,12 @@ Note how---regarless of the enormous qualtitative difference in use and interpre
 I'm amazed at the inevitability of the space symbol regardless of the alphabet chosen.
 
 
-# 1. Operator
+# 1. Operators and variables
 
 > What is the difference between one and the succesor of zero?
 
 An operator is really a function of limited arity. As an unary operation we have negation. Is this THE unique unary operation? (what does it take to make negation a unique unary operation?)
 All binary can be re-encoded as operations.
-
-
-# 2. Variable
 
 The variable answers the question of the difference between one and zero's succesor.
 By the variable they're the same.
