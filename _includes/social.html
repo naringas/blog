@@ -13,3 +13,18 @@
   <li><a href="https://narinxas.blogspot.com"><img class="svg-icon" src="{{ 'assets/custom/blogger.svg' | relative_url }}" style="filter: grayscale(100%);"> <span class="username">the other blog</span></a></li>
   {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
 </ul>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML", "output/PreviewHTML"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js"]
+  },
+  tex2jax: {
+    inlineMath: [['$','$']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js" type="text/javascript"></script>
