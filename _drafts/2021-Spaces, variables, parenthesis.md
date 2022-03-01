@@ -16,9 +16,9 @@ I think about different ways to encode the same numbers. I distinguish in my hea
 
 > The most important character has been taken for granted.
 
-Suppose we already understand what is a number. I restate what is a number so we are on the same page.
-A number is many things such that it doesn't matter which things just how many.
-A number lets us answer "how many?" of anything as long as all them thing.
+Suppose we already understand what is a number. I restate what is a number so we are on the same page.  
+A number is anything such that it doesn't matter what exactly any of them is, only how many there are matters.
+A number lets us answer "how many?" of anything as long as all the things can be precisely and consistently identifiable.
 
 Choose that a number is a chain of succession operations starting from 0. This number zero corresponds to the void; it's most special number due to this relation with pure void; a tricky and special concept on its own.
 
