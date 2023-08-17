@@ -34,3 +34,7 @@ blockquote {
 	padding: 2px 4px;
 	margin-right: 5px;
 }
+
+h1 {
+    @include relative-font-size(2.666);
+}

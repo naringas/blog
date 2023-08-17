@@ -24,8 +24,9 @@ author: Written by B.S.
 description: >-
   Personal blog of "publishable" notes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.naringas.info"
+url: "https://naringas.blog"
 github_username:  naringas
+youtube_username: "@naring-dos"
 rss: RSS
 
 # Build settings

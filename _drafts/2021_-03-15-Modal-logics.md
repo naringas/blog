@@ -1,10 +1,10 @@
 ---
-title: Modal logics
+title: 20th century logic
 tags: mathematics logic computing
 excerpt_separator: <!--more-->
 ---
 
-Part of what I have learned during the almost one year of my masters in computer science has been logic.
+Most of what I have learned during the almost one year of my masters in computer science has been logic.
 
 I already knew some logic. I knew about [0th order logic](https://en.wikipedia.org/wiki/Zeroth-order_logic) , better known as propositional logic (the rudimentary logic of "not", "and", "or", and "implies"). And I knew enough [1st order logic](https://en.wikipedia.org/wiki/First-order_logic) (preidate logic) to be able to use use it.  
 But this post isn't about them, it's about 20th century contributions to the subject.
@@ -14,22 +14,28 @@ I had already understood that the main difference between these two most-element
 But there's so much more. When one goes on to study how logic itself is made one learns about _metalogical_ concepts such as the syntax and the semantics of a logic.
 
 All this gets complicated because we use logical reasoning to study logic. We are studing that which we use to study! 
-This feels to me like investigating how bicycles work by focusing on your bike while you are riding it. The complexity arises from looking at your bike instead of at the road while you're cycling.
+This feels to me like investigating how bicycles work by tweaking and messing with your bike while you are riding it. The complexity is akin to the complications of looking at your bike instead of at the road while you're cycling.
 
 <!--more-->
 
 # Introduction
 
-Logic is an old subject. It's probably even older than Aristotle who studied it quite a lot and is known for making the first formal (i.e. written) attempts at describing what it is and how it works.  
-But many others have contributed to its study, mostly philosophers until some time in the 17th century Leibniz started with an even more rigorous (i.e. mathematical) study of logic.
+Logic is an old subject. Its invention is widely attributed to Aristotle who studied it quite a lot and is known for making the first formalized (i.e. written) attempts at describing what it is and how it works.  
+As logic is the study of reason, the subject is always within reach of anyone able to reason; And indeed, many others thinkers besides the ancient greeks have studied logic.
 
-But that happened some 300 of years ago and there have been many technological breakthroughs since then.
+But there's a sublte difference between the capacity for reasoning and the long historical accumulation of thoughts about reasoning (a.k.a the academic discipline of logic).  
+
+Beyond (more recently than) the most famous (and by this point commonly known) thinkers to have contributed to logic (e.g. Aristotle, Liebniz, Giuseppe Peano). There are more recent thinkers such as George Boole (19th century) whose name has become synonimous with anything either true or false (and not both). The more recent the contribution the lesser known they are.
+
+Logic explodes in importance with the advent of the computer age. Since the 20th century, thinkers such as Alan Turing, Alonzo Church, John von Neumann set the stage for the development of computing. But other less famous (due to more focused contributions) thinkers whose work I consider important are Alfred Tarski, Emil Post, Saul Kripke, Gerard Gentzen. And even more recently Brouwer, Heyting, Kolmogorov.
 
 Automatic logic is very useful because it enables one to be right (correct) without really knowing much about that which one is reasoning about.  
 This is very helpful in computing becuse this way we know how to make programs such that when given a truthful (or valid) input will produce truthful outputs.  
-In this way logic is the study of truthfulness preserving tranfsormations. And computing is all about devices which perform such transormations on their own withouth needing a full-blown awareness about their work.
+In this way logic is the study of truthfulness preserving tranfsormations. And computing is all about devices which perform such transformations on their own while foregoing a full understanding of what they're doing.
 
 It's quite noteworthy that most logic doesn't ever define what truth really is. In my opinion this part of why it's so useful; it's not about finding truth as much as it's about not losing it.
+
+
 
 # From logic to logic**s**
 
@@ -47,7 +53,7 @@ These traditional logical systems are _great ideas_ built by hundreds (if not th
 Since the 19th century, around the time of [George Boole](https://en.wikipedia.org/wiki/George_Boole); namesake of the word ["Boolean"](https://en.wikipedia.org/wiki/Boolean) the mathematicians of the world were setting the stage for Modal Logic.
 
 
-# Modal Logics
+# The propositional "calculus"
 <!--
 Better known as propositional calculus or logic, is a logic with variables (logicians typically use p, q, r) which stand in for arbitrary factual statements (e.g. p &#x2254; "the door is open"; q &#x2254; "the room is getting wet") and connectives inspired by natural language: and, or, if ... then, not.
 
@@ -63,5 +69,7 @@ On the other hand 1st order logic is way too expressive, to the point that it ca
 -->
 
 
+# Modal Logics
 
-In modal logic, the truth-value assignments of the formula get extended by a graph of words (and the modal operators which work over this graph's arrows) rather than a simple table (which remains in the "valuation" or "labeling" function. it's somewhat relegated; and further, it gets separated, a Kripke frame does not require it)
+
+In modal logic, the truth-value assignments of the formula get extended by a graph of worlds (and the modal operators which work over this graph's arrows) rather than a simple table (which remains in the "valuation" or "labeling" function. it's somewhat relegated; and further, it gets separated, a Kripke frame does not require it)

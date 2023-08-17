@@ -1,6 +1,6 @@
 ---
 name: Comment or observation
-about: Do you have anything to add?
+about: Do you have anything to add or to substract?
 title: ''
 labels: ''
 assignees: naringas

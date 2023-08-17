@@ -23,7 +23,8 @@ A number lets us answer "how many?" of anything as long as all the things can be
 Choose that a number is a chain of succession operations starting from 0. This number zero corresponds to the void; it's most special number due to this relation with pure void; a tricky and special concept on its own.
 
 Choose that we encode a number with a finite (but arbitrarily finite) number of _alphabetic digits_.
-These digits correspond to an "alphabet" taken as a finite set of symbols. This alphabet must be stable; it cannot change across any specific number.
+These digits correspond to an "alphabet" (meaning as a finite set of symbols). This alphabet must be stable, meaning it cannot change while we're counting (advancing on the succession of numbers to our target number).
+
 Choose that the alphabet is an arbitray finite number of digit-symbols. 
 This touches on our first complication: the use of the alphabet to define our number-encoding while using numbers to _index_ the alphabet (which defines the encoding...).
 
